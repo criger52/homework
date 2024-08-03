@@ -11,7 +11,7 @@ class Stack:
         
     def pop(self):
         if size > 0:
-            self.list_value[self.num] = None
+            self.list_value[0] = None
             size-=size
         else:
             print("stack is empty")
